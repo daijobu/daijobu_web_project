@@ -1,0 +1,82 @@
+
+header {
+    color: #ffffff;
+    padding: 20px 10px;
+    background: #EB4545;
+    font-family: Helvetica Newue, Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+body {
+    background-color: #F2F2F2;
+    font: 16px Helvetica Newue, Helvetica, Arial, sans-serif;
+}
+
+.bold-title {
+    font-weight: bold;
+}
+
+.footer-font {
+    font-family: Helvetica Newue, Helvetica, Arial, sans-serif;
+    bottom: 0;
+    position: fixed;
+}
+
+/*tabs*/
+.tabs {
+    width:100%;
+    display:inline-block;
+}
+
+/*----- Tab Links -----*/
+/* Clearfix */
+.tab-links:after {
+    display: block;
+    clear: both;
+    content: '';
+}
+
+.tab-links li {
+    margin:0px 5px;
+    float: left;
+    list-style:none;
+}
+
+.tab-links a {
+    padding:9px 15px;
+    display:inline-block;
+    border-radius:3px 3px 0px 0px;
+    background:#828282;
+    font-size:16px;
+    font-weight:600;
+    color: white;
+    transition:all linear 0.15s;
+}
+
+.tab-links a:hover {
+    background:#a7cce5;
+    text-decoration:none;
+}
+
+li.active a, li.active a:hover {
+    background:#fff;
+    color:#4c4c4c;
+}
+
+/*----- Content of Tabs -----*/
+.tab-content {
+    padding:15px;
+    border-radius:3px;
+    box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
+    background:#fff;
+}
+
+.tab {
+    display:none;
+}
+
+.tab.active {
+    display:block;
+}
